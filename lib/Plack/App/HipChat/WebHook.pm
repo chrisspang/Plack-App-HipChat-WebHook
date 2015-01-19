@@ -126,7 +126,7 @@ The callback is passed a hashref that looks like this:
                   self           "https://api.hipchat.com/v2/room/123456",
                   webhooks       "https://api.hipchat.com/v2/room/123456/webhook"
               },
-              name    "DevChat"
+              name    "ChatRoom"
           }
       },
       oauth_client_id   "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
