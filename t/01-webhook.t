@@ -8,8 +8,6 @@ use Plack::Test;
 use HTTP::Request;
 use HTTP::Headers;
 
-use Data::Printer;
-
 use Plack::App::HipChat::WebHook;
 
 my $app = Plack::App::HipChat::WebHook->new({
