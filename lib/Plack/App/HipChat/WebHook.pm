@@ -81,7 +81,7 @@ sub return_400 {
       hipchat_user_agent => 'ExpectedUserAgent',  # Optional
       webhooks => {
           '/webhook_notification' => sub {
-              my ($env, $rh) = @_;
+              my $rh = shift;
 
   #
   # Do something with $rh (decoded JSON webhook notification)
